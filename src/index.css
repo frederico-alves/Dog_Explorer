@@ -1,0 +1,47 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.page-title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 83px;
+  margin-bottom: 25px;
+}
+.select-dropdown {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGZpbGw9J25vbmUnIHZpZXdCb3g9JzAgMCAyMCAyMCc+PHBhdGggc3Ryb2tlPScjNmI3MjgwJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnIHN0cm9rZS13aWR0aD0nMS41JyBkPSdtNiA4IDQgNCA0LTQnLz48L3N2Zz4=);
+  background-size: 1.5em 1.5em;
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding-right: 2.5rem;
+  appearance: none;
+  background-color: #fff;
+  border-color: #6b7280;
+  border-width: 1px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-style: double;
+
+  width: 280px;
+  height: 40px;
+  padding-left: 12px;
+}
+
+/*** FREDERICO ALVES @ SHAPE GAMES ***/

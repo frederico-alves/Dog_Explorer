@@ -1,0 +1,14 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+.select-container-favorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorites-breedName {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    padding: 10px;
+}
+/*** FREDERICO ALVES @ SHAPE GAMES ***/

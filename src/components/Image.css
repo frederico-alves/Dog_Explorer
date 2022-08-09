@@ -1,0 +1,106 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+.image-card {
+    width: 410px;
+    height: 335px;
+    margin: 1rem !important;
+    overflow: hidden;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.image-card img {
+    transition: transform 400ms ease-out;
+    min-height: 100%;
+    min-width: 100%;
+
+    border-style: none;
+    display: block;
+}
+
+.image-card:hover img {
+    transform: scale(1.15);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card:hover .overlay {
+    opacity: 1;
+}
+
+.filled-heart {
+    transform: scale(2.5);
+    fill: rgba(255, 249, 249, 0.7);
+    opacity: 1;
+    transition: .1s ease;
+}
+
+.image-card:hover .filled-heart {
+    opacity: 0;
+}
+
+.overlay-hidden {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.image-card:hover .overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.image-card:hover .overlay-hidden {
+    opacity: 1;
+}
+
+/* === ADD === */
+
+.image-card .suit-heart {
+    transform: scale(1.5);
+    fill: #e64356;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+
+    transition: transform 400ms ease-out;
+}
+
+.image-card:hover .suit-heart {
+    transform: scale(2.5);
+    opacity: 1;
+}
+
+.image-card:active .suit-heart {
+    transform: scale(9);
+    opacity: 1;
+}
+
+
+/* === REMOVE === */
+
+.trashcan {
+    width: 30px;
+    height: 30px;
+    transform: scale(2.5);
+    transition: transform .1s;
+    fill: rgba(255, 255, 255, 0.7);
+}
+
+.image-card:active .trashcan {
+    transform: scale(3);
+}
+/*** FREDERICO ALVES @ SHAPE GAMES ***/

@@ -1,0 +1,21 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+.bottom-note {
+  background-color: #585858;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2px;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 610px) {
+  .bottom-note {
+    height: 30px;
+    padding: 2px 90px;
+  }
+}
+/*** FREDERICO ALVES @ SHAPE GAMES ***/

@@ -1,0 +1,11 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+.select-container-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-dropdown-list option:first-child {
+    display: none;
+}
+/*** FREDERICO ALVES @ SHAPE GAMES ***/

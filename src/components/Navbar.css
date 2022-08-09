@@ -1,0 +1,77 @@
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
+.nav {
+  background-color: #e64356;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style: none;
+  height: 65px;
+  box-shadow: #00000069 0px 0px 10px 0px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.left-title {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: #e64356 solid 5px;
+  transition: all .2s;
+}
+
+.left-title:hover {
+  border-bottom: white solid 5px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  background-color: #e64356;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  height: 100%;
+}
+
+.nav svg {
+  fill: white;
+}
+
+.nav li {
+  border-bottom: #e64356 solid 5px;
+  transition: all .2s;
+}
+
+.nav li.active {
+  height: 100%;
+  border-bottom: white solid 5px;
+}
+
+.nav li:hover {
+  height: 100%;
+  border-bottom: white solid 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav {
+    font-size: 0.9rem;
+  }
+
+  .nav .left-title {
+    font-size: 1.5rem;
+  }
+}
+/*** FREDERICO ALVES @ SHAPE GAMES ***/
