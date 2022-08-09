@@ -11,7 +11,7 @@ Setup in a local machine
 1. Open terminal
 2. Clone repository running `git clone git@github.com:frederico-alves/Dog_Explorer.git`<br>
 --(or alternatively download repository as .zip file)
-3. Run `cd dog_Explorer`
+3. In your terminal run `cd Dog_Explorer` or `cd PATH` (dragging and dropping the folder in the terminal)
 4. Run `npm install` to install node dependencies.
 5. Run `npm start` for a dev server.
 6. A tab of your favourite browser should open as `http://localhost:3000/`
